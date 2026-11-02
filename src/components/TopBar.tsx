@@ -7,7 +7,7 @@ export default function TopBar({ role }: { role: string }) {
       {canManageEmployees(role) ? (
         <TopBarSearch />
       ) : (
-        <span className="text-sm text-slate-400">Company management portal</span>
+        <span className="text-sm text-slate-400">Employee management portal</span>
       )}
     </header>
   );

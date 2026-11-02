@@ -50,7 +50,7 @@ export default function Sidebar({ user }: { user: NavUser }) {
           U
         </span>
         {!collapsed && (
-          <span className="truncate text-base font-semibold text-white">UMS</span>
+          <span className="truncate text-base font-semibold text-white">EMS</span>
         )}
         <button
           type="button"
