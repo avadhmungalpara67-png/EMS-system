@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs";
 const prisma = new PrismaClient();
 
 async function main() {
-  const adminEmail = "admin@ums.local";
+  const adminEmail = "admin@ems.local";
   const existing = await prisma.user.findUnique({ where: { email: adminEmail } });
   if (existing) {
     console.log("Admin user already exists, skipping seed.");
@@ -34,7 +34,7 @@ async function main() {
   });
 
   console.log("Seeded admin user:");
-  console.log("  email:    admin@ums.local");
+  console.log("  email:    admin@ems.local");
   console.log("  password: Admin@12345");
   console.log("Change this password after first login.");
 }

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "UMS — Company Management System",
+  title: "EMS — Employee Management System",
   description: "Employee registration, directory, and RBAC-driven admin portal",
 };
 

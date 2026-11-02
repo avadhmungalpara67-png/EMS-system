@@ -39,8 +39,8 @@ export default function LoginForm() {
           <span className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-indigo-600 text-lg font-bold text-white shadow-sm">
             U
           </span>
-          <h1 className="text-2xl font-semibold tracking-tight text-slate-900">Sign in to UMS</h1>
-          <p className="mt-1 text-sm text-slate-500">Company management portal</p>
+          <h1 className="text-2xl font-semibold tracking-tight text-slate-900">Sign in to EMS</h1>
+          <p className="mt-1 text-sm text-slate-500">Employee management portal</p>
         </div>
 
         <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
